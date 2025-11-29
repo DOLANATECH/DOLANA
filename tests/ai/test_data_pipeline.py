@@ -95,6 +95,10 @@ mock_output = np.zeros_like(self.raw_data)
         mock_preprocess.assert_called_once_with(self.raw_data)
 $Mycorm
 )}
+
+np.testing.assert_array_almost_equal(result, mock_output)
+$Mycorm
+)}
     
     def test_preprocess_success(self):
         processed = self.pipeline.preprocess(self.raw_data)
