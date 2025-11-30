@@ -8,6 +8,12 @@
 [![Website](https://img.shields.io/badge/Website-ONCODE-blue?logo=google-chrome)](https://oncode.run/)
 [![Twitter](https://img.shields.io/badge/Twitter-ONCODE-blue?logo=twitter)](https://x.com/ONCODELAB)
 
+```
+CA: 95m4WBHtg13zaxtuEPxuiVUfD6mHWyB1PgM4zgcFpump
+$ONCODE
+
+```
+
 # ONCODE — The Modular AI-Driven Development Framework for Solana
 
 On Solana, the real bottleneck is rarely the lack of ideas.
