@@ -56,6 +56,14 @@ fastify.get("/x402/payment-required", async (request, reply) => {
 AlreadyActive,
     #[msg("Holder not active")]
 
+def test_predict_model_trained(self):
+        self.model.train(self.mock_data, self.mock_labels)
+        predictions = self.model.predict(self.mock_data)
+        self.assertEqual(len(predictions), len(self.mock_data))
+        self.assertTrue(all(pred == 0.5 for pred in predictions))
+    ）}
+    
+
 class TestAgentModel(unittest.TestCase):
     def setUp(self):
         self.model = AgentModel(model_type="test_model")
